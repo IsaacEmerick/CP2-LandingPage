@@ -1,0 +1,44 @@
+.bg-dark { background-color: #0C0C0C; }
+.bg-light-pink { background-color: #FDF3F8; }
+.bg-dark-blue { background-color: #0E0932; }
+.bg-dark-pink { background-color: #AA206B; }
+.bg-vibrant-pink { background-color: #E32D91; }
+.bg-light-gray { background-color: #DCD9D4; }
+
+.text-dark { color: #0C0C0C; }
+.text-light-pink { color: #FDF3F8; }
+.text-dark-blue { color: #0E0932; }
+.text-dark-pink { color: #AA206B; }
+.text-vibrant-pink { color: #E32D91; }
+.text-light-gray { color: #DCD9D4; }
+
+.bg-gradient {
+    background: linear-gradient(90deg, #0E0932 70%, #AA206B 100%);
+}
+
+#hero {
+    background-image: url('../images/Background-CP2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #FDF3F8;
+}
+
+#hero div {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.animate-fade-in {
+    animation: fadeIn 2s ease-in-out;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0.2; }
+    100% { opacity: 1; }
+}
+
+html {
+    scroll-behavior: smooth;
+}

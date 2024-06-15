@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestão de Treinamentos</title>
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="./assets/js/script.js" defer></script>
+</head>
+<body class="bg-light-gray text-dark">
+    <header class="p-4 sticky top-0 w-full bg-gradient text-light-pink text-center z-10">
+        <div class="flex justify-between items-center">
+            <div class="text-lg font-bold"><a href="#hero" class="hover:border-b hover:border-b-pink-600">Gestão de Treinamentos</a></div>
+            <nav>
+                <ul class="flex space-x-4">
+                    <li><a href="#about" class="hover:border-b hover:border-b-pink-600">Sobre</a></li>
+                    <li><a href="#features" class="hover:border-b hover:border-b-pink-600">Funcionalidades</a></li>
+                    <li><a href="#proposal" class="hover:border-b hover:border-b-pink-600">Proposta</a></li>
+                    <li><a href="#contact" class="hover:border-b hover:border-b-pink-600">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="hero" class="bg-light-pink h-screen">
+        <div class="w-full h-full flex bg-black bg-opacity-50 justify-between flex-col">
+            <div class="flex flex-1 justify-center items-center">
+                <h1 class="text-4xl font-bold text-light-pink mb-4">Sistema de Gestão de Treinamentos</h1>
+                <p class="text-lg mb-6">Automatize e otimize a gestão de treinamentos na sua empresa.</p>
+            </div>
+            <a href="#about" class="pb-24">
+                <svg xmlns="http://www.w3.org/2000/svg" class="animate-bounce" width="3em" height="3em" viewBox="0 0 256 256"><path fill="currentColor" d="M128 20a108 108 0 1 0 108 108A108.12 108.12 0 0 0 128 20m0 192a84 84 0 1 1 84-84a84.09 84.09 0 0 1-84 84m40.49-84.49a12 12 0 0 1 0 17l-32 32a12 12 0 0 1-17 0l-32-32a12 12 0 1 1 17-17L116 139V88a12 12 0 0 1 24 0v51l11.51-11.52a12 12 0 0 1 16.98.03"/></svg>
+            </a>
+        </div>
+    </section>
+    <section id="about" class="py-20">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center text-dark-blue mb-10">Sobre o Projeto</h2>
+            <p class="text-lg mb-6">
+                Este projeto visa desenvolver um sistema que automatize e otimize o controle e a administração dos treinamentos de funcionários. O sistema permitirá aos gestores cadastrar funcionários, identificar automaticamente os treinamentos necessários para cada funcionário com base no setor, acompanhar o progresso dos treinamentos e manter um registro completo das atividades de treinamento.
+            </p>
+            <p class="text-lg mb-6">
+                Com a implementação deste sistema, espera-se que os gestores possam gerenciar os treinamentos de maneira mais eficaz, garantindo que todos os funcionários recebam a qualificação necessária de forma oportuna.
+            </p>
+        </div>
+    </section>
+    <section id="features" class="py-20">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center text-dark-blue mb-10">Funcionalidades</h2>
+            <div class="flex flex-wrap -mx-4">
+                <div class="w-full md:w-1/2 lg:w-1/3 px-4 mb-8">
+                    <div class="bg-white p-6 rounded shadow">
+                        <h3 class="text-xl font-semibold mb-2 text-dark-pink">Cadastro de Funcionários</h3>
+                        <p>Registre funcionários e seus setores facilmente.</p>
+                    </div>
+                </div>
+                <div class="w-full md:w-1/2 lg:w-1/3 px-4 mb-8">
+                    <div class="bg-white p-6 rounded shadow">
+                        <h3 class="text-xl font-semibold mb-2 text-dark-pink">Identificação de Treinamentos</h3>
+                        <p>Determine automaticamente os treinamentos necessários.</p>
+                    </div>
+                </div>
+                <div class="w-full md:w-1/2 lg:w-1/3 px-4 mb-8">
+                    <div class="bg-white p-6 rounded shadow">
+                        <h3 class="text-xl font-semibold mb-2 text-dark-pink">Acompanhamento</h3>
+                        <p>Monitore o progresso dos treinamentos em tempo real.</p>
+                    </div>
+                </div>
+                <div class="w-full md:w-1/2 lg:w-1/3 px-4 mb-8">
+                    <div class="bg-white p-6 rounded shadow">
+                        <h3 class="text-xl font-semibold mb-2 text-dark-pink">Notificações</h3>
+                        <p>Receba alertas sobre a conclusão de cursos.</p>
+                    </div>
+                </div>
+                <div class="w-full md:w-1/2 lg:w-1/3 px-4 mb-8">
+                    <div class="bg-white p-6 rounded shadow">
+                        <h3 class="text-xl font-semibold mb-2 text-dark-pink">Dashboard</h3>
+                        <p>Visualize os treinamentos concluídos por setor.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="proposal" class="py-20 bg-light-pink">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center text-dark-blue mb-10">Proposta</h2>
+            <div class="bg-white p-6 rounded shadow">
+                <h3 class="text-2xl font-semibold mb-4 text-dark-pink">Objetivo</h3>
+                <p class="text-lg mb-6">
+                    Desenvolver um software que permita aos gestores de treinamento cadastrar funcionários, identificar automaticamente os treinamentos necessários, acompanhar o progresso e manter um registro completo das atividades de treinamento.
+                </p>
+                <h3 class="text-2xl font-semibold mb-4 text-dark-pink">Escopo</h3>
+                <p class="text-lg mb-6">
+                    <ul class="list-disc pl-6 mb-6">
+                        <li>Cadastrar funcionários e setores</li>
+                        <li>Identificar treinamentos necessários automaticamente</li>
+                        <li>Monitorar o progresso dos treinamentos</li>
+                        <li>Manter registros completos das atividades</li>
+                        <li>Notificar responsáveis pela conclusão de cursos</li>
+                        <li>Fornecer um dashboard de visualização</li>
+                    </ul>
+                </p>
+                <h3 class="text-2xl font-semibold mb-4 text-dark-pink">Soluções Propostas</h3>
+                <p class="text-lg mb-6">
+                    <ul class="list-disc pl-6">
+                        <li>Banco de dados relacional MySQL</li>
+                        <li>Interface web responsiva com HTML, CSS e JavaScript</li>
+                        <li>Lógica de negócios em Python para automação</li>
+                    </ul>
+                </p>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="py-20">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center text-dark-blue mb-10">Contato</h2>
+            <form id="contactForm" class="max-w-lg mx-auto bg-white p-8 rounded shadow">
+                <div class="mb-4">
+                    <label for="name" class="block text-gray-700">Nome:</label>
+                    <input type="text" id="name" name="name" class="w-full px-4 py-2 border rounded" required>
+                </div>
+                <div class="mb-4">
+                    <label for="email" class="block text-gray-700">Email:</label>
+                    <input type="email" id="email" name="email" class="w-full px-4 py-2 border rounded" required>
+                </div>
+                <div class="mb-4">
+                    <label for="message" class="block text-gray-700">Mensagem:</label>
+                    <textarea id="message" name="message" class="w-full px-4 py-2 border rounded" required></textarea>
+                </div>
+                <button type="submit" class="bg-dark-blue text-light-pink px-6 py-2 rounded hover:bg-indigo-950">Enviar</button>
+            </form>
+        </div>
+    </section>
+    <footer class="bg-dark-blue text-light-pink text-center py-4">
+        <p>&copy; 2024 Gestão de Treinamentos. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
